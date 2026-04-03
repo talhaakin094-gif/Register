@@ -50,7 +50,6 @@ export default function Register() {
     /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@.#$!%*?&])[A-Za-z\d@.#$!%*?&]{8,15}$/;
 
   useEffect(() => {
-    document.title = "ödev"
     if (
       formData.ad.trim().length >= 3 &&
       formData.soyad.trim().length >= 3 &&
